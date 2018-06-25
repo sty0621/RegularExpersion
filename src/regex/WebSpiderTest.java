@@ -51,6 +51,7 @@ public class WebSpiderTest {
 		Matcher m = p2.matcher(destStr);
 		
 		while(m.find()) {
+			System.out.println(m.group());
 			System.out.println(m.group(1));
 		}
 		
